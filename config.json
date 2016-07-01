@@ -1,7 +1,0 @@
-{
-  "dynamodb": {
-    "region": "eu-west-1",
-    "endpoint": "https://dynamodb.eu-west-1.amazonaws.com",
-    "table": "homework"
-  }
-}

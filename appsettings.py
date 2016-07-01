@@ -1,8 +1,3 @@
-import json
-
-with open('config.json') as config_file:
-    data = json.load(config_file)
-
-dynamodb_endpoint = data['dynamodb']['endpoint']
-dynamodb_region = data['dynamodb']['region']
-dynamodb_table = data['dynamodb']['table']
+dynamodb_endpoint = 'https://dynamodb.eu-west-1.amazonaws.com'
+dynamodb_region = 'eu-west-1'
+dynamodb_table = 'homework'
