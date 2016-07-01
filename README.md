@@ -1,7 +1,7 @@
 # homework
+Simple web application that shows a visit counter and lets you reset it. Written in Python on Flask with data in AWS DynamoDB.
 ## Setting up the server
-Here is an example on how to set up a server to run the application.
-This example applies to Ubuntu 14.04.
+Example applies to Ubuntu 14.04.
 Install required packages to begin with.
 ```
 # Install Apache and WSGI for Python 3
