@@ -1,7 +1,10 @@
-import boto3, decimal
+import boto3, decimal, appsettings
 
-dynamodb = boto3.resource('dynamodb', region_name='eu-west-1', endpoint_url="https://dynamodb.eu-west-1.amazonaws.com")
-table = dynamodb.Table('homework')
+dynamodb = boto3.resource('dynamodb',
+                          region_name=appsettings.dynamodb_region,
+                          endpoint_url=appsettings.dynamodb_endpoint)
+
+table = dynamodb.Table(appsettings.dynamodb_table)
 
 
 def count():
