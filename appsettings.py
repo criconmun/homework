@@ -1,5 +1,4 @@
 import json
-from pprint import pprint
 
 with open('config.json') as config_file:
     data = json.load(config_file)
