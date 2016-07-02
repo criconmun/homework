@@ -1,4 +1,7 @@
-import boto3, decimal, appsettings
+import boto3
+import decimal
+
+from homework import appsettings
 
 dynamodb = boto3.resource('dynamodb',
                           region_name=appsettings.dynamodb_region,

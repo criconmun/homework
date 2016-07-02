@@ -1,5 +1,6 @@
 from flask import Flask, redirect, render_template
-import visits
+
+from homework import visits
 
 app = Flask(__name__)
 
