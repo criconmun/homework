@@ -19,6 +19,8 @@ I placed mine under /var/www/homework.
 import sys,os
 current_path = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(current_path)
+
+from homework.homework import app as application
 ```
 Create an apache site. On Ubuntu, they file should go into /etc/apache2/sites-available/. I call mine homework.conf.
 ```
